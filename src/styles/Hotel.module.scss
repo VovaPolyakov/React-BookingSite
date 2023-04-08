@@ -1,0 +1,46 @@
+.hotel{
+    padding: 200px 0;
+    .container{
+        margin: 0 auto;
+        width: 80%;
+        .hotel_title{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 47px;
+            color: #383838;
+            text-align: center;
+        }
+        .hotel_row{
+            display: flex;
+            justify-content: space-between;
+            padding: 130px 0 0 0 ;
+            width: 100%;
+            .hotel_item{
+                width: 30%;
+                margin: 0 15px;
+                .hotel_img{
+                    width: 300px;
+                    height: 300px;
+                }
+                .hotel_text{
+                    height: 100px;
+                    .hotel_name{
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 28px;
+                        color: #3077C6;
+                    }
+                    .hotel_location{
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 28px;
+                        color: #BFBFBF;
+                    }
+                }
+            }
+        }
+    }
+}

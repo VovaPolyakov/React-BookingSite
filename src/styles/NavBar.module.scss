@@ -1,0 +1,125 @@
+
+
+.navbar{
+    background-image: url(../assets/image/navbar/first_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .container{
+        width: 80%;
+        margin: 0 auto;
+        .header{
+            .row{
+                padding: 30px 0;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .menu{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    ul{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        .menu_link{
+                            list-style: none;
+                            font-family: 'Roboto';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 24px;
+                            line-height: 28px;
+                            text-align: center;
+                            color: #FFFFFF;
+                            margin-right: 30px;
+                            cursor: pointer;
+                        }
+                    }
+                    .menu_buttons{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        .button_account{
+                            background: transparent;
+                            border: none;
+                            cursor: pointer;
+                        }
+                        .button_night{
+                            background: transparent;
+                            border: none;
+                            margin-right: 30px;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+        .main{
+            margin-top: 140px;
+            padding-bottom: 300px;
+            position: relative;
+            .title{
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 30px;
+                color: #FFFFFF;
+            }
+            .hotel_text{
+                position: absolute;
+                color: #FFFFFF;
+                bottom: 365px;
+                left: 30px;
+            }
+            .check{
+                position: absolute;
+                color: #FFFFFF;
+                bottom: 365px;
+                left: 600px;
+            }
+            .search_inputs{
+                width: 100%;
+                margin-top: 150px;
+                height: 60px;
+                .input_city{
+                    width: 33%;
+                    padding: 20px;
+                    background: #FFFFFF;
+                    border: 3px solid #F3F3F4;
+                    border-bottom-left-radius: 8px;
+                    border-top-left-radius: 8px;
+                    outline: none;
+                    
+                }
+                .input_date{
+                    width: 14%;
+                    padding: 20px;
+                    border: 3px solid #F5BD41;
+                    outline: none;
+                }
+                .input_rooms{
+                    width: 23%;
+                    padding: 21px;
+                    background: #FFFFFF;
+                    border: 3px solid #F3F3F4;
+                    outline: none;
+                }
+                .search_button{
+                    width: 20%;
+                    padding: 16px 19px 20px 19px;
+                    background: #3077C6;
+                    border-bottom-right-radius: 8px;
+                    border-top-right-radius: 8px;
+                    border: none;
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 28px;
+                    color: #FFFFFF;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
