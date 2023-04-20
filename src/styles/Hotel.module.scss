@@ -16,15 +16,21 @@
             justify-content: space-between;
             padding: 130px 0 0 0 ;
             width: 100%;
+            flex-wrap: wrap;
             .hotel_item{
-                width: 30%;
-                margin: 0 15px;
+                width: 300px;
+                margin: 20px 15px;
+                cursor: pointer;
                 .hotel_img{
-                    width: 300px;
+                    width: 100%;
                     height: 300px;
                 }
                 .hotel_text{
-                    height: 100px;
+                    height: 90px;
+                    padding-top: 20px;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: column;
                     .hotel_name{
                         font-style: normal;
                         font-weight: 400;
@@ -36,8 +42,8 @@
                         font-style: normal;
                         font-weight: 400;
                         font-size: 18px;
-                        line-height: 28px;
                         color: #BFBFBF;
+                        margin: 0;
                     }
                 }
             }
